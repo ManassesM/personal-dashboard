@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Note } from '../shared/node.model';
+import { Note } from '../shared/note.model';
 import { NoteService } from '../shared/note.service';
 
 @Component({
@@ -9,15 +9,12 @@ import { NoteService } from '../shared/note.service';
 })
 export class NotesComponent implements OnInit {
 
-  notes: Note[] = [
-    new Note('Test title 1', 'content 1!'),
-    new Note('Test title 2', 'content 2!'),
-  ]
-
+  notes: Note[] 
+  
   constructor(private noteService: NoteService) { }
 
   ngOnInit(): void {
-    this.noteService.getNotes()
+    this.notes = this.noteService.getNotes()
   }
 
 }

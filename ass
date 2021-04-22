@@ -1,0 +1,65 @@
+[33mcommit eaff5b34360e01073a6d67dc3c9a09567cdf56fa[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: ManassesM <manamiui2001@gmail.com>
+Date:   Thu Apr 22 13:41:42 2021 -0300
+
+    Generating the Note Cards
+
+[33mcommit f77e1400f390cc73bd87f6317a280efa81758057[m
+Author: ManassesM <manamiui2001@gmail.com>
+Date:   Thu Apr 22 13:19:48 2021 -0300
+
+    Note Service
+
+[33mcommit d240d8dfe39a32a92234cd26efee6b9eccdaa559[m
+Author: ManassesM <manamiui2001@gmail.com>
+Date:   Wed Apr 21 15:01:25 2021 -0300
+
+    Add Note UI
+
+[33mcommit 4afb165c6460db54880fcc95e1b1a89bcf9c2ec1[m
+Author: ManassesM <manamiui2001@gmail.com>
+Date:   Tue Apr 20 15:09:10 2021 -0300
+
+    Route Transitions
+
+[33mcommit 91b0e275577c956169ee649c6e7d046ea220b552[m
+Author: ManassesM <manamiui2001@gmail.com>
+Date:   Tue Apr 20 12:28:14 2021 -0300
+
+    Notes UI
+
+[33mcommit 0a48730063e140dc223d1d3f73c3cfdb5f9e5269[m
+Author: ManassesM <manamiui2001@gmail.com>
+Date:   Tue Apr 20 12:18:02 2021 -0300
+
+    Todos UI
+
+[33mcommit 324e303afde381f11d3fccb13d2870979cb280d7[m
+Author: ManassesM <manamiui2001@gmail.com>
+Date:   Tue Apr 20 11:50:02 2021 -0300
+
+    Bookmarks UI
+
+[33mcommit 7c6246203112ef932dc3a23c5e1e61b127aad161[m
+Author: ManassesM <manamiui2001@gmail.com>
+Date:   Mon Apr 19 17:57:18 2021 -0300
+
+    Tabs
+
+[33mcommit 815700640e953ece5529c8f63056feb78db9bdb0[m
+Author: ManassesM <manamiui2001@gmail.com>
+Date:   Mon Apr 19 15:25:52 2021 -0300
+
+    Styles added
+
+[33mcommit 960846bacb1f4949cc206a9fed7b62fcc05a3644[m
+Author: ManassesM <manamiui2001@gmail.com>
+Date:   Mon Apr 19 14:55:50 2021 -0300
+
+    First Commit
+
+[33mcommit 58dbab23753929f4a9f0b54db0acacb7743f1861[m
+Author: ManassesM <manamiui2001@gmail.com>
+Date:   Mon Apr 19 14:45:36 2021 -0300
+
+    initial commit
