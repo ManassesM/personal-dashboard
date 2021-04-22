@@ -70,6 +70,7 @@ h2.is-bold {
 
 .btns-container {
   display: flex;
+  gap: 12px;
   margin-top: 20px;
 
   &.btns-centered {
@@ -137,4 +138,8 @@ h2.is-bold {
 .textarea {
   resize: none;
   min-height: 200px;
+}
+
+a {
+  text-decoration: none;
 }
