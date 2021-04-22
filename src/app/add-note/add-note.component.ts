@@ -11,7 +11,7 @@ import { NoteService } from '../shared/note.service';
 })
 export class AddNoteComponent implements OnInit {
 
-  notes: Note[]
+  notes: Note[] = [];
 
   constructor(private noteService: NoteService, private router: Router) { }
 
@@ -19,6 +19,8 @@ export class AddNoteComponent implements OnInit {
   }
 
   onFormSubmit(form: NgForm) {
+    if(form.invalid) return alert('Form is invalid!')
+
     const note = new Note(form.value.title, form.value.content);
     
     this.noteService.addNote(note);
