@@ -22,7 +22,7 @@ export class TodoService {
     return this.todos.find(t => t.id === id)
   }
 
-  adTodo(todo: Todo) {
+  addTodo(todo: Todo) {
     this.todos.push(todo)
   }
 
