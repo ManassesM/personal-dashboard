@@ -2,21 +2,15 @@
 
     <div class="container">
 
-        <div class="todo-item completed">
-            <div class="check-box">
-                <i class="material-icons-outlined">check</i>
-            </div>
-            <p class="todo-text">This is the todo text</p>
-        </div>
+        <app-todo-item *ngFor="let todo of todos" [todo]="todo" (click)="toggleCompleted(todo)"></app-todo-item>
 
-        
-        <div class="todo-item">
-            <div class="check-box">
-                <i class="material-icons-outlined">check</i>
-            </div>
-            <p class="todo-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque perferendis exercitationem in consectetur aliquam dolorum, iste excepturi at aspernatur beatae, sit unde. Porro minima perferendis reprehenderit aliquid itaque amet! Animi!</p>
-        </div>
-        
     </div>
 
+    <div class="btns-container btns-centered">
+        <a routerLink="add" class="btn add-btn">
+            <i class="material-icons-outlined">add</i>
+            Add
+        </a>
+    </div>
+    
 </div>

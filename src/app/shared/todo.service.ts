@@ -6,9 +6,13 @@ import { Todo } from './todo.model';
 })
 export class TodoService {
 
-  todos: Todo[]
+  todos: Todo[] = [
+    new Todo("This is a test!"),
+    new Todo("Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non dolor est dicta, temporibus aliquid suscipit dolorum praesentium sed at cupiditate quasi voluptas quos rem quaerat facilis saepe laudantium earum reiciendis."),
+  ]
 
-  constructor() { }
+  constructor() { 
+  }
 
   getTodos() {
     return this.todos
