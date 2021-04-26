@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACjB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;CACjB;;AAED,AAAA,yBAAyB,CAAC;EACxB,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,IAAI;EACT,eAAe,EAAE,MAAM;EAEvB,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "bookmarks.component.scss"
+    ],
+    "names": [],
+    "file": "bookmarks.component.css"
+}

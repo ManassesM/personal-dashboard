@@ -8,6 +8,8 @@ export class Bookmark {
     constructor(name: string, url: string) {
         this.id = uuv4id()
         this.url = new URL(url)
+
+        if(!name) name = this.url.hostname
         this.name = name
     }
 }

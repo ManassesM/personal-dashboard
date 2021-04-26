@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;CACjB;;AAED,AAAA,QAAQ,CAAC,CAAC,CAAC;EACT,YAAY,EAAE,GAAG;EACjB,WAAW,EAAE,GAAG;CACjB;;AAED,AAAA,aAAa,CAAC;EACZ,OAAO,EAAE,KAAK;EACd,aAAa,EAAE,IAAI;CACpB",
+    "sources": [
+        "notes.component.scss"
+    ],
+    "names": [],
+    "file": "notes.component.css"
+}

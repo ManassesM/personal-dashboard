@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,gBAAgB,EAAO,kBAAK;EAC5B,KAAK,EAAO,yBAAK;EAEjB,OAAO,EAAE,IAAI;EAEb,aAAa,EAAE,GAAG;EAElB,MAAM,EAAE,OAAO;EAEf,UAAU,EAAE,QAAQ;CAMrB;;AAhBD,AAYE,UAZQ,AAYP,MAAM,CAAC;EACN,gBAAgB,EAAO,mBAAK;EAC5B,eAAe,EAAE,SAAS;CAC3B;;AAGH,AAAA,gBAAgB,CAAC;EACf,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;CACjB;;AAED,AAAA,kBAAkB,CAAC;EACjB,UAAU,EAAE,GAAG;CAChB",
+    "sources": [
+        "note-card.component.scss"
+    ],
+    "names": [],
+    "file": "note-card.component.css"
+}
