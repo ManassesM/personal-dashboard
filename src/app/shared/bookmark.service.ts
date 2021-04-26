@@ -8,10 +8,11 @@ export class BookmarkService {
 
   bookmarks: Bookmark[] = [
     new Bookmark('Google', 'http://google.com'),
-    new Bookmark('Wikipedia', 'http://wikipedia.com')
+    new Bookmark('Wikipedia', 'http://wikipedia.com'),
+    new Bookmark('YouTube', 'http://youtube.com'),
   ]
 
-  constructor(private bookmarkService: BookmarkService) { }
+  constructor() { }
 
   getBookmarks() {
     return this.bookmarks
